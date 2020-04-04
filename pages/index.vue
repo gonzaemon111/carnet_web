@@ -63,6 +63,9 @@ export default {
   components: {
     Logo,
     VuesaxLogo
+  },
+  mounted() {
+    console.log(`process.env.API_KEY : ${process.env.API_KEY}`)
   }
 }
 </script>
